@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Crud Application</title>
+</head>
+<body>
+    <h1>Crud Application With Local Storage</h1>
+
+    <div class="container">
+        <div class="header">
+            <h2 id="title">Add User</h2>
+        </div>
+        <form action="" id="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Your Name">
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter Email">
+            </div>
+            <div class="form-control">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" placeholder="Enter Phone">
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <!-- <tr>
+                    <td>Jasim</td>
+                    <td>jasim@gmail.com</td>
+                    <td>1234567890</td>
+                    <td>
+                        <button class="delete-btn">Delete</button>
+                        <button class="edit-btn">Edit</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jasim</td>
+                    <td>jasim@gmail.com</td>
+                    <td>1234567890</td>
+                    <td>
+                        <button class="delete-btn">Delete</button>
+                        <button class="edit-btn">Edit</button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
